@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Bring</string>
+    <string name="start_your_list">Start Your List</string>
+    <string name="title_activity_item__list_">Item_List_Activity</string>
+    <string name="title_activity_item_list">ItemListActivity</string>
+    <string name="item_name">Item Name</string>
+    <string name="qty">Qty</string>
+    <string name="add_to_my_list">Add</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="edit_item_title">Edit</string>
+    <string name="have_been_added"> have been added </string>
+    <string name="units"> units</string>
+    <string name="with"> with </string>
+    <string name="you_have_updated">You have updated </string>
+    <string name="please_insert_quantity">Please insert a quantity</string>
+    <string name="please_insert_item_name">Please insert an item name</string>
+    <string name="you_have_added">You have added </string>
+    <string name="in"> in </string>
+    <string name="units_in"> units in </string>
+    <string name="to"> to </string>
+    <string name="you_have_changed">You have changed </string>
+    <string name="_1_unit">1 unit</string>
+    <string name="apples">Apples</string>
+    <string name="edit_item">Edit item</string>
+    <string name="carrefour">Carrefour</string>
+    <string name="units_in_the_list">Units in the list</string>
+    <string name="list">List</string>
+    <string name="shop_logo">Shop logo</string>
+    <string name="articles_in_list">articles in list</string>
+</resources>

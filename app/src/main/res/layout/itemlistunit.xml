@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/itemlistunit"
+    android:layout_width="match_parent"
+    android:layout_height="72dp"
+    card_view:contentPaddingBottom="8dp"
+    card_view:contentPaddingLeft="16dp"
+    card_view:contentPaddingRight="16dp"
+    card_view:contentPaddingTop="8dp">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <CheckBox
+            android:id="@+id/removeitem"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="start"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:checked="false"
+            android:gravity="center_vertical"
+            android:textColor="@color/colorDarkGrey"
+            card_view:layout_constraintBottom_toBottomOf="parent"
+            card_view:layout_constraintLeft_toLeftOf="parent"
+            card_view:layout_constraintTop_toTopOf="parent"
+            card_view:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/itemqty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="top"
+            android:text="@string/_1_unit"
+            android:textColor="@color/colorSubTextGrey"
+            android:textSize="16sp"
+            android:visibility="visible"
+            card_view:layout_constraintBottom_toBottomOf="parent"
+            card_view:layout_constraintTop_toBottomOf="@+id/itemname"
+            card_view:layout_constraintLeft_toRightOf="@+id/removeitem"
+            android:layout_marginBottom="8dp"
+            android:layout_marginStart="24dp" />
+
+        <TextView
+            android:id="@+id/itemname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:gravity="top"
+            android:text="@string/apples"
+            android:textColor="@color/colorBlack"
+            android:textSize="16sp"
+            card_view:layout_constraintTop_toTopOf="parent"
+            card_view:layout_constraintLeft_toRightOf="@+id/removeitem"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="24dp" />
+
+        <ImageButton
+            android:id="@+id/edititemstart"
+            style="@android:style/Widget.DeviceDefault.ImageButton"
+            android:layout_width="64dp"
+            android:layout_height="0dp"
+            android:adjustViewBounds="false"
+            android:background="@color/colorWhite"
+            android:cropToPadding="false"
+            android:padding="8dp"
+            android:src="@drawable/edit_icon"
+            android:visibility="visible"
+            card_view:layout_constraintBottom_toBottomOf="parent"
+            card_view:layout_constraintRight_toRightOf="parent"
+            card_view:layout_constraintTop_toTopOf="parent"
+            android:contentDescription="@string/edit_item" />
+
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.v7.widget.CardView>
